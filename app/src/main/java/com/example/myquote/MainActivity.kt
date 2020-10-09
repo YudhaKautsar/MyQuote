@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         client.get(url, object : AsyncHttpResponseHandler() {
             override fun onSuccess(
                 statusCode: Int,
-                headers: Array<Header>,
+                headers: Array<Header>,a
                 responseBody: ByteArray
             ) {
                 //Jika koneksi berhasil
